@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import styled from 'react-emotion';
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import Helmet from 'react-helmet';
+import { StaticQuery, graphql } from 'gatsby';
 
-import Header from './header'
-import './layout.css'
+import Header from './header';
+import './layout.css';
 
 const MainContent = styled('main')`
   margin: 0 auto;
@@ -44,6 +44,6 @@ const Layout = ({ children }) => (
       </>
     )}
   />
-)
+);
 
-export default Layout
+export default Layout;

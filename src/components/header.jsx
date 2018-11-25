@@ -39,4 +39,4 @@ const Header = ({ siteTitle }) => (
   </NavigationMenu>
 );
 
-export default Header
+export default Header;

@@ -1,6 +1,5 @@
-import React from 'react'
+import React from 'react';
 import styled from 'react-emotion';
-import { Link } from 'gatsby'
 
 const NavigationMenu = styled('header')`
   margin-bottom: 1.45rem;
@@ -12,6 +11,10 @@ const TitleContainer = styled('div')`
   max-width: 960px;
   font-size: 1.6rem;
   padding: 1.45rem 1.0875rem;
+`;
+
+const Title = styled('h1')`
+  margin: 0;
 `;
 
 const MediumTitle = styled('h2')`
@@ -26,14 +29,14 @@ const text = 'Software Developer';
 const Header = ({ siteTitle }) => (
   <NavigationMenu>
     <TitleContainer>
-      <h1 style={{ margin: 0 }}>
+      <Title>
         {siteTitle}
-      </h1>
+      </Title>
       <MediumTitle>
         {text}
       </MediumTitle>
     </TitleContainer>
   </NavigationMenu>
-)
+);
 
 export default Header

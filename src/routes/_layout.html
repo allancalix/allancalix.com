@@ -1,0 +1,22 @@
+<Header segment={child.segment}/>
+<main>
+	<svelte:component this={child.component} {...child.props}/>
+</main>
+
+<style>
+	main {
+		position: relative;
+		box-sizing: border-box;
+    max-width: 80rem;
+    margin: auto;
+    padding: 2rem 0;
+	}
+</style>
+
+<script>
+	export default {
+		components: {
+			Header: '../components/Header.html'
+		}
+	};
+</script>

@@ -16,7 +16,7 @@
       </div>
     </header>
     <main>
-      <p>Hello. My name is Allan and I love to code. <br>Learn more about me at the links above ☝.️</p>
+      <p>Hello. My name is Allan and I love to code. <br>Check me out at the links above ☝.️</p>
     </main>
   </div>
 </template>
